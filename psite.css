@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-image: url("bg3.jpg");
-    color: rgb(211, 211, 211);
+    color: rgb(241, 241, 241);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -17,9 +17,9 @@ body {
     padding: 10px;
     
 }
-section#about{
+.container.abt{
     background: rgba(0, 13, 31, 0.438);
-    margin: auto;
+    margin: 0 auto;
 }
 
 header {
@@ -58,7 +58,7 @@ section {
 
 h2 {
     text-align: center;
-    color:#c7c4c4;
+    
 }
 
 p{
