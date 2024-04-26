@@ -14,12 +14,18 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 10px;
+    padding: 15px;
     
 }
 .container.abt{
     background: rgba(0, 13, 31, 0.438);
     margin: 0 auto;
+}
+
+.container.head{
+    background-color: rgba(0, 13, 31, 0.438);
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 header {
