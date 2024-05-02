@@ -47,3 +47,19 @@ body {
     background-color: #202932;
     color: #ffffff;
 }
+/* Gallery styling */
+.card-body {
+    background-color: #202932;
+    border-radius: 0;
+    color: white;
+    padding: 1.5rem;
+}
+
+.card-img-top {
+    object-fit: cover;
+    border-radius: 0;
+    height: 500px;
+}
+.card {
+    border: none;
+}
