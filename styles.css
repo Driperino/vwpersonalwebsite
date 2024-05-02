@@ -1,0 +1,47 @@
+/* 
+
+Colour pallet
+#0E1F2F #E84546 #84DADB #F0A178 #202932
+
+*/
+
+/* Global Styles */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url("bg3.jpg");
+    color: rgb(241, 241, 241);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Custom navbar background*/
+.custom-navbar {
+    background-color: #0E1F2F;
+  }
+
+/* Banner image things*/
+.image-container {
+    position: relative;
+    display: inline-block;
+    border-radius: 20px;
+    overflow: hidden;
+    background: #0e1f2f3b;
+    padding: 25px;
+}
+.image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 25px; 
+    background-clip: padding-box;
+    box-shadow: 0 0 30px #202932;
+}
+/* End of Banner Image things */
+
+/* Form styling */
+.custom-bg {
+    background-color: #202932;
+    color: #ffffff;
+}
