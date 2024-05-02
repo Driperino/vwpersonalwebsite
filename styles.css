@@ -1,7 +1,7 @@
 /* 
 
 Colour pallet
-#0E1F2F #E84546 #84DADB #F0A178 #202932
+#0E1F2F #E84546 #84DADB #F0A178 #202932 #292E4B
 
 */
 
@@ -15,7 +15,11 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.container{
+    background-color: #292e4b68; /* Faded background color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Optional: Add padding for better spacing */
+}
 /* Custom navbar background*/
 .custom-navbar {
     background-color: #0E1F2F;
@@ -27,7 +31,6 @@ body {
     display: inline-block;
     border-radius: 20px;
     overflow: hidden;
-    background: #0e1f2f3b;
     padding: 25px;
 }
 .image-container img {
@@ -36,7 +39,6 @@ body {
     height: auto;
     border-radius: 25px; 
     background-clip: padding-box;
-    box-shadow: 0 0 30px #202932;
 }
 /* End of Banner Image things */
 
