@@ -16,9 +16,9 @@ body {
     background-size: cover;
 }
 .container{
-    background-color: #292e4b68; /* Faded background color */
+    background-color: #292e4b68;
     border-radius: 10px; /* Rounded corners */
-    padding: 20px; /* Optional: Add padding for better spacing */
+    padding: 20px;
 }
 /* Custom navbar background*/
 .custom-navbar {
