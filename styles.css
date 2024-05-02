@@ -15,15 +15,46 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.container{
+
+.container {
     background-color: #292e4b68;
-    border-radius: 10px; /* Rounded corners */
+    border-radius: 10px;
+    /* Rounded corners */
     padding: 20px;
 }
+
 /* Custom navbar background*/
-.custom-navbar {
+.custom-navbar .dropdown-menu {
     background-color: #0E1F2F;
-  }
+}
+
+.dropdown-menu {
+    color: #ffffff;
+}
+
+/* Custom styles for dropdown menu */
+.navbar .dropdown-menu {
+    background-color: #0E1F2F;
+    /* Background color */
+    border: none;
+    /* Remove border */
+}
+
+.navbar .dropdown-menu a.dropdown-item {
+    color: #ffffff;
+    /* Text color */
+}
+
+.navbar .dropdown-menu a.dropdown-item:hover {
+    background-color: #495057;
+    /* Hover background color */
+}
+
+.navbar .dropdown-menu .dropdown-divider {
+    border-top-color: #6c757d;
+    /* Divider color */
+}
+/*---------------------------------------*/
 
 /* Banner image things*/
 .image-container {
@@ -33,13 +64,15 @@ body {
     overflow: hidden;
     padding: 25px;
 }
+
 .image-container img {
     display: block;
     width: 100%;
     height: auto;
-    border-radius: 25px; 
+    border-radius: 25px;
     background-clip: padding-box;
 }
+
 /* End of Banner Image things */
 
 /* Form styling */
@@ -47,6 +80,7 @@ body {
     background-color: #202932;
     color: #ffffff;
 }
+
 /* Gallery styling */
 .card-body {
     background-color: #202932;
@@ -60,9 +94,11 @@ body {
     border-radius: 0;
     height: 500px;
 }
+
 .card {
     border: none;
 }
+
 /* end of gallery */
 
 /* image preview on games page */
