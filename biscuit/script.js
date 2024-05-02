@@ -69,7 +69,7 @@ function purchaseUpgrade(index) {
 function calculateBiscuitsPerSecond(index) {
     switch (index) {
         case 1:
-            return 0.002 * upgradeLevels[index]; // Upgrade 2: Increase by 0.002 per level
+            return 0.02 * upgradeLevels[index]; // Upgrade 2: Increase by 0.002 per level
         case 2:
             return 0.05 * upgradeLevels[index]; // Upgrade 3: Increase by 0.05 per level
         case 3:
@@ -77,7 +77,7 @@ function calculateBiscuitsPerSecond(index) {
         case 4:
             return 6 * upgradeLevels[index]; // Upgrade 5: Increase by 6 per level
         case 5:
-            return 50 * upgradeLevels[index]; // Upgrade 6: Increase by 50 per level
+            return 10 * upgradeLevels[index]; // Upgrade 6: Increase by 50 per level
         default:
             return 0; // For other upgrades, return 0
     }
