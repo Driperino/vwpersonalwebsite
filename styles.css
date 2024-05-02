@@ -23,6 +23,8 @@ body {
     padding: 20px;
 }
 
+/*------------------------------------*/
+
 /* Custom navbar background*/
 .custom-navbar .dropdown-menu {
     background-color: #0E1F2F;
@@ -35,25 +37,23 @@ body {
 /* Custom styles for dropdown menu */
 .navbar .dropdown-menu {
     background-color: #0E1F2F;
-    /* Background color */
     border: none;
-    /* Remove border */
 }
 
 .navbar .dropdown-menu a.dropdown-item {
     color: #ffffff;
-    /* Text color */
 }
 
 .navbar .dropdown-menu a.dropdown-item:hover {
     background-color: #495057;
-    /* Hover background color */
+    /*Hover*/
 }
 
 .navbar .dropdown-menu .dropdown-divider {
     border-top-color: #6c757d;
-    /* Divider color */
+    /*Divider*/
 }
+
 /*---------------------------------------*/
 
 /* Banner image things*/
@@ -73,7 +73,7 @@ body {
     background-clip: padding-box;
 }
 
-/* End of Banner Image things */
+/* ------------------------------------ */
 
 /* Form styling */
 .custom-bg {
@@ -99,7 +99,7 @@ body {
     border: none;
 }
 
-/* end of gallery */
+/* ----------------------------------- */
 
 /* image preview on games page */
 .custom-image {
