@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#biscuit-clickable {
+    cursor: pointer;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#biscuit-clickable img {
+    width: 150px;
+    height: auto;
+}
+
+#counter, #bps-counter, #bpc-counter {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+#upgrade-container {
+    max-width: 600px; /* Set maximum width for the upgrade container */
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.upgrade-wrapper {
+    display: inline-block;
+    margin: 10px;
+}
+
+.upgrade-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.upgrade-table {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+    border-collapse: collapse;
+}
+
+.upgrade-table th, .upgrade-table td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.upgrade-table th {
+    background-color: #f2f2f2;
+}
+
+/* Style for disabled upgrade buttons */
+.upgrade-button[disabled] {
+    background-color: #cccccc; /* Grey out the button */
+    cursor: not-allowed; /* Show the not-allowed cursor */
+}

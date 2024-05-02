@@ -63,3 +63,10 @@ body {
 .card {
     border: none;
 }
+/* end of gallery */
+
+/* image preview on games page */
+.custom-image {
+    width: 300px;
+    height: auto;
+}
